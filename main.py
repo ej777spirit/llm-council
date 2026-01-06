@@ -1,6 +1,4 @@
-def main():
-    print("Hello from llm-council!")
+from backend.main import app
 
-
-if __name__ == "__main__":
-    main()
+# Export for Vercel
+handler = app
